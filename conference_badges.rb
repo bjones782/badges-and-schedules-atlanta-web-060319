@@ -5,6 +5,8 @@
 def badge_maker(name)
   return "Hello, my name is #{name}"
 end
+ badge_maker("Arel")
+end
 
 #Write a `batch_badge_creator` method that takes an array of names as an argument and returns an array of badge messages.
 speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
