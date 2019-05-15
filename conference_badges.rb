@@ -15,3 +15,7 @@ def batch_badge_creator(names)
   end
  new_array
 end 
+
+def assign_rooms(attendees)
+  new_array = []
+  attendees.each do |room|
